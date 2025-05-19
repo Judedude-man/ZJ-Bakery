@@ -1,0 +1,16 @@
+.products img{
+    width: 300px;
+    height: 300px;
+}
+.design{
+    display: flex;
+    width: 1875px;
+    height: 150px;
+    background-color: blue;
+    justify-content: center;
+    align-items: center;
+    
+}
+.Homebtn{
+    font-size: 50px;
+}

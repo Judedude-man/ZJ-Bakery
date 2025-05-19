@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+
+.topbar{
+    width:  100%;
+    height: 200px;
+    background-color: #406090;
+    position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.topbarbtns{
+    align-items: center;
+    transform: translateX(115px);
+}
+.logo img{
+    width: 500px;
+    height: 250px;
+}
+.socials{
+    width: 450px;
+    height: 100px;
+    background-color: #606060;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    padding: 25px;
+    transform: translateY(660px);
+}
+.socialscontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.donutimg img{
+    width: 100px;
+    height: 100px;
+    transform: translateX(500px);
+}
+.croisantimg img{
+    width: 100px;
+    height: 100px;
+    transform: translateX(-750px);
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container .logo img{
+    width: 1000px;
+    height: 500px;
+    justify-content: center;
+}
+.loading{
+    display: none;
+}
+.loginpage{
+    font-size: 40px;
+}
